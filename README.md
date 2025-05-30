@@ -2,7 +2,8 @@
 
 ### Description
 
-This is a simple command-line password manager written in Python 3.10.12. The application is run from the terminal using commands explained below. Requires: `pycryptodome`  
+This is a simple command-line password manager written in Python 3.10.12. The application is run from the terminal using commands explained below.<br>
+Requires: `pycryptodome`  
 Install it using:
 ```bash
 pip install pycryptodome
