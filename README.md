@@ -2,8 +2,7 @@
 
 ### Description
 
-This is a simple command-line password manager written in Python 3.10.12. The application is run from the terminal using commands explained below.
-Requires: `pycryptodome`  
+This is a simple command-line password manager written in Python 3.10.12. The application is run from the terminal using commands explained below. Requires: `pycryptodome`  
 Install it using:
 ```bash
 pip install pycryptodome
@@ -14,17 +13,17 @@ To start the program, open a terminal, navigate to the directory containing the 
 ```bash
 python3 pass_man.py
 ```
-On the first run, use the init command to set a master password
-The password is not stored; it is used with a randomly generated salt to derive an encryption key
-A database.txt file is created to store the salt and encrypted data
+On the first run, use the init command to set a master password.
+The password is not stored; it is used with a randomly generated salt to derive an encryption key.
+A database.txt file is created to store the salt and encrypted data.
 
 If init is run again:
 - The user must enter the original master password
 - A new password can then be set, but all previous data will be erased
 
-To save data, use the put command with the address and password
-To retrieve data, use the get command with the address
-Use q to quit the program
+To save data, use the put command with the address and password.
+To retrieve data, use the get command with the address.
+Use q to quit the program.
 
 ### Error Handling
 - Incorrect master password or integrity check failed. — Shown if the master password is wrong or database.txt is modified
